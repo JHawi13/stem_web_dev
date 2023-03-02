@@ -1,0 +1,54 @@
+body{
+    background-color: aqua;
+}
+#login{
+    background-color: white;
+    margin-top: 3cm;
+    margin-left:5cm ;
+    margin-right: 5cm;
+    border: ridge  10px darkblue;
+    font-size: 20px;
+    border-radius: 30px;
+
+}
+#login h1 {
+   text-align: center;
+   font-size: xx-large;
+}
+#login h2 {
+    text-indent: 8px;
+    margin: left 3cm;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+.Input_Boxes {
+    padding-left: 1cm;
+    font-size: larger;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-right: 0cm;
+    padding-right: 16cm;
+    border-radius: 10px;
+    border: transparent;
+    background-color:#D2CFFE ;
+}
+#Message_box {
+    padding-bottom: 2cm;
+
+}
+#Sign-in_button {
+    margin-left: 7cm;
+    width: 10cm;
+    padding-top: 10px;
+    margin-top: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+    border: transparent;
+    background-color: #274AB3;
+    color:antiquewhite;
+    margin-bottom: 1cm;
+}
