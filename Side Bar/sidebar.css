@@ -1,0 +1,35 @@
+.Side_Bar {
+    background-color: rgba(19, 177, 216, 0.801);
+    color: red;
+    text-decoration: none;
+    width: 5cm;
+    height: 100%;
+    position: fixed;
+    padding-top: 20px;
+    padding-left: 0cm;
+}
+.Side_Bar ul {
+    list-style: none;
+    padding-left: 20px;
+}
+.Side_Bar ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 20px;
+}
+.Side_Bar a {
+    text-decoration: none;
+    color: red;
+}
+.Side_Bar a:hover {
+    text-decoration: underline;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gold;
+}
+.Rounded_Image {
+    width: 6cm;
+    height: 3cm;
+    border-radius: 3cm;
+    overflow-y:none;
+    overflow-x: none;
+}
