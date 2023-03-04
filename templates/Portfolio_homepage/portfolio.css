@@ -1,0 +1,38 @@
+#Side_Bar{
+    background-image: url("https://th.bing.com/th/id/OIP.v4pqzLqZt-o2xoS8Fma0dgHaHa?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 0cm;
+    margin-right: 5px;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0cm;
+}
+#Side_Bar ul {
+    list-style: none;
+    margin-left: 0%;
+    padding-left: 0cm;
+}
+#Side_Bar ul li a {
+    text-decoration: none;
+    color: blueviolet;
+    margin-left: 0px;
+}
+.Side_by_side{
+    display: inline-block ;
+    text-align: center;
+    margin-top: 0%;
+    height: 50cm;
+    margin-top: 0cm;
+}
+#Main_body {
+    background-color: brown;
+    border: double 4px purple;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 30cm;
+    padding-top: 0cm;
+}
