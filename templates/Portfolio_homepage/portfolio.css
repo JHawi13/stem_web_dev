@@ -1,38 +1,98 @@
+a{
+    text-decoration: none;
+}
+a:hover {
+    transition: 4s;
+    background-color: aqua;
+    color: red;
+
+}
 #Side_Bar{
     background-image: url("https://th.bing.com/th/id/OIP.v4pqzLqZt-o2xoS8Fma0dgHaHa?pid=ImgDet&rs=1");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin-left: 0cm;
-    margin-right: 5px;
-    margin-top: 0%;
-    padding-bottom: 0%;
+    background-color: rgba(19, 177, 216, 0.801);
+    color: red;
+    text-decoration: none;
+    width: 5cm;
+    height: 100%;
+    position: fixed;
+    padding-top: 20px;
     padding-left: 0cm;
 }
 #Side_Bar ul {
     list-style: none;
     margin-left: 0%;
     padding-left: 0cm;
+
 }
 #Side_Bar ul li a {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(22, 187, 7);
     margin-left: 0px;
+
 }
-.Side_by_side{
+#Side_Bar ul li {
+    border: cornflowerblue solid 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Side_by_side {
     display: inline-block ;
     text-align: center;
     margin-top: 0%;
     height: 50cm;
     margin-top: 0cm;
+    margin-right: 0cm;
+    padding-right: 0cm;
 }
 #Main_body {
-    background-color: brown;
-    border: double 4px purple;
+    background-image: url(IMAGES/R.jpg);
+    background-size: contain;
+    border: solid 8px purple;
     font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
-    background-repeat: no-repeat;
-    margin-left: 0%;
-    margin-top: 0%;
-    width: 30cm;
+    background-attachment: fixed;
+    margin-top: 0cm;
+    margin-left: 5cm;
+    margin-right: 0cm;
+    width: 20cm;
+    padding-left: 6cm;
     padding-top: 0cm;
+    padding-right: 8cm;
+    color: goldenrod;
+    text-align: center;
+}
+img {
+    border-radius: 20px;
+    width: 3cm;
+    height: 3cm;
+}
+.My_name{
+    font-size: 40px;
+}
+table td ,th {
+    border: solid #000000 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    color: antiquewhite;
+    background-color: #000000;
+}
+button  {
+    border: solid blue 5px;
+    background-color: #000000;
+    color: greenyellow;
+    
+}
+button a {
+    text-decoration: none;
+    color:white;
+}
+.Read_More a {
+    border: 1px solid green;
+    text-decoration: none;
+    color: purple;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 20px;
 }
