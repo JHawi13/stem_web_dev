@@ -1,114 +1,181 @@
-a{
-    text-decoration: none;
-}
-a:hover {
-    transition: 4s;
-    background-color: aqua;
-    color: red;
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
 
-}
-#Side_Bar{
-    background-color: #8C7D5D;
-    color: red;
-    text-decoration: none;
-    width: 5cm;
-    height: 100%;
-    position: fixed;
-    padding-top: 20px;
-    padding-left: 0cm;
-}
-#Side_Bar ul {
-    list-style: none;
-    margin-left: 0%;
-    padding-left: 0cm;
-
-}
-#Side_Bar ul li a {
-    text-decoration: none;
-    color: rgb(22, 187, 7);
-    margin-left: 0px;
-
-}
-#Side_Bar ul li {
-    border:#BF7C1F solid 4px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.Side_by_side {
-    display: inline-block ;
-    text-align: center;
-    margin-top: 0%;
-    height: 50cm;
-    margin-top: 0cm;
-    margin-right: 0cm;
-    padding-right: 0cm;
-}
-#Main_body {
-    background-color: crimson;
-    background-size: contain;
-    border: solid 8px purple;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: xx-large;
-    background-attachment: fixed;
-    margin-top: 0cm;
-    margin-left: 5cm;
-    margin-right: 0cm;
-    width: 20cm;
-    padding-left: 6cm;
-    padding-top: 0cm;
-    padding-right: 8cm;
-    color: #0DA83E;
-    text-align: center;
-}
-img {
-    border-radius: 20px;
-    width: 3cm;
-    height: 3cm;
-}
-.My_name{
-    font-size: 40px;
-}
-table td ,th {
-    border: solid #000000 5px;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    padding-top: 0%;
-    padding-bottom: 0%;
-    color: antiquewhite;
-    background-color: #000000;
-}
-button  {
-    border: solid blue 5px;
-    background-color: #000000;
-    color: greenyellow;
-    
-}
-button a {
-    text-decoration: none;
-    color:white;
-}
-.Read_More a {
-    border: 1px solid green;
-    text-decoration: none;
-    color: purple;
-    background-color: yellow;
-    font-weight: bold;
-    font-size: 20px;
-}
-.Cloud_Nine  {
-    color: #572FA8;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
 
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
 @font-face {
-    font-family: Tilt_Prism,cursive;
-    src: url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+    font-family: 'Josefin Sans', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
 }
-.Alchemy {
-    color:#A89F19;
-    font-family: Tilt_Prism,cursive;
+@font-face {
+    font-family: 'Climate Crisis', cursive;
+    src: url("https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap");
 }
-#Alchemy_Intro {
-    background-color:#F5E81C ;
-    font-weight: bold;
+#Top_Navigation_bar{
+    padding-top: 2cm;
+    padding-bottom: 1cm;
+    padding-left: 7.5cm;
+    background-image: url(IMAGES/Sky_lights.gif);
+    background-repeat: no-repeat;
+    background-size: 36.5cm 4cm;
+    margin-bottom: 0cm;
+}
+#Top_Navigation_bar ul li{
+    display: inline-block;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    font-size: x-large;
+}
+#Top_Navigation_bar ul li a{
+    text-decoration: none;
+    font-family: 'Josefin Sans',sans-serif;
+    color:#2CA1F0;
+}
+#Main {
+    background-image:url(IMAGES/The_City.gif);
+    margin-top: 0cm;
+    padding-top: 1cm;
+    padding-bottom: 12cm;
+    background-size: 36.5cm 13cm;
+    background-repeat: no-repeat;
+}
+#Welcome_portal{
+    margin-top: 20px;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    font-size: xx-large;
+    text-align: center;
+    opacity: 0.5;
+    color:#4743EF ;
+    border: solid grey 5px;
+    font-family: 'Climate Crisis' , cursive;
+}
+#The_Grid{
+    display: inline-grid;
+    column-gap:10px ;
+    row-gap: 10px;
+}
+.The_Grid_Items{
+    background-color: black;
+    font-size: large;
+    text-align: center;
+    opacity: 0.5;
+    color:#4743EF ;
+    border: solid grey 5px;
+    font-family: 'Climate Crisis' , cursive;
+    margin-top: 10px;
+}
+#GridItem1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#GridItem2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
