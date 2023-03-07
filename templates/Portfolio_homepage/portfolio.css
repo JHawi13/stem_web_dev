@@ -8,8 +8,7 @@ a:hover {
 
 }
 #Side_Bar{
-    background-image: url("https://th.bing.com/th/id/OIP.v4pqzLqZt-o2xoS8Fma0dgHaHa?pid=ImgDet&rs=1");
-    background-color: rgba(19, 177, 216, 0.801);
+    background-color: #8C7D5D;
     color: red;
     text-decoration: none;
     width: 5cm;
@@ -31,7 +30,7 @@ a:hover {
 
 }
 #Side_Bar ul li {
-    border: cornflowerblue solid 4px;
+    border:#BF7C1F solid 4px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -45,7 +44,7 @@ a:hover {
     padding-right: 0cm;
 }
 #Main_body {
-    background-image: url(IMAGES/R.jpg);
+    background-color: crimson;
     background-size: contain;
     border: solid 8px purple;
     font-family: 'Times New Roman', Times, serif;
@@ -58,7 +57,7 @@ a:hover {
     padding-left: 6cm;
     padding-top: 0cm;
     padding-right: 8cm;
-    color: goldenrod;
+    color: #0DA83E;
     text-align: center;
 }
 img {
@@ -95,4 +94,21 @@ button a {
     background-color: yellow;
     font-weight: bold;
     font-size: 20px;
+}
+.Cloud_Nine  {
+    color: #572FA8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@font-face {
+    font-family: Tilt_Prism,cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+}
+.Alchemy {
+    color:#A89F19;
+    font-family: Tilt_Prism,cursive;
+}
+#Alchemy_Intro {
+    background-color:#F5E81C ;
+    font-weight: bold;
 }
