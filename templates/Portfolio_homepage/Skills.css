@@ -112,7 +112,7 @@ input, select {
     padding-top: 2cm;
     padding-bottom: 1cm;
     padding-left: 7.5cm;
-    background-image: url(IMAGES/Sky_lights.gif);
+    background-color:#7D756F ;
     background-repeat: no-repeat;
     background-size: 36.5cm 4cm;
     margin-bottom: 0cm;
@@ -126,14 +126,15 @@ input, select {
 #Top_Navigation_bar ul li a{
     text-decoration: none;
     font-family: 'Josefin Sans',sans-serif;
-    color:#2CA1F0;
+    color:#F9DCC7;
 }
 #Main {
-    background-image:url(IMAGES/The_City.gif);
+    background-image:url(IMAGES/cool_mountain.jpg);
+    background-attachment: fixed;
     margin-top: 0cm;
     padding-top: 1cm;
-    padding-bottom: 13cm;
-    background-size: 36.5cm 15cm;
+    padding-bottom: 16cm;
+    background-size: 36.5cm 18.5cm;
     background-repeat: no-repeat;
 }
 #Welcome_portal{
@@ -144,38 +145,57 @@ input, select {
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: black;
+    background-color: #7D756F;
     font-size: xx-large;
     text-align: center;
     opacity: 0.5;
-    color:#8597E1 ;
-    border: solid white 5px;
+    color: burlywood ;
+    border: solid grey 5px;
     font-family: 'Climate Crisis' , cursive;
 }
 #The_Grid{
     display: inline-grid;
     column-gap:10px ;
-    row-gap: 10px;
-}
-.The_Grid_Items{
-    background-color: black;
+    row-gap: 3px;
+    background-color:#7D756F;
     font-size: large;
     text-align: center;
     opacity: 0.5;
-    color:#8597E1 ;
-    border: solid white 5px;
+    color: burlywood ;
+    border: solid grey 5px;
     font-family: 'Climate Crisis' , cursive;
     margin-top: 10px;
+    font-size: x-large;
+    text-align: left;
+    padding-bottom: 1cm;
 }
+
 #GridItem1{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
 }
 #GridItem2{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
+    grid-row-end: 1;
+    margin-bottom: 0cm;
+}
+#GridItem3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 2;
+}
+
+#GridItem2 h1{
+    font-size: 130px;
+}
+
+#Profile_Photo {
+    border: solid burlywood 5px;
+    border-radius: 20px;
+    margin-left: 3cm;
 }
